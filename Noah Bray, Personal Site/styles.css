@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background:url(https://cdn.discordapp.com/attachments/774055903309201451/1074727459238465647/Personal_Website_Mockup.png) no-repeat center center fixed;
+background-size: 100% auto;
+-webkit-background-size: 100% auto;
+-moz-background-size: 100% auto;
+-o-background-size: 100% auto;
+}
+
+li, a, button{
+    font-family: 'Inter', sans-serif;
+    font-weight:500 ;
+    font-size:16px ;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-inks li a:hover{
+    transform: all 0.3s ease 0s;
+    color: white;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(white, white, white, 1);
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+}
+
+button:hover{
+    background-color: rgba(white, white, white, 0.8);
+}
